@@ -4,7 +4,9 @@
   "description": "serv",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "bhargavi": "node server.js",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Palacharlabhargavi/build-nodejs/issues"
   },
-  "homepage": "https://github.com/Palacharlabhargavi/build-nodejs#readme"
+  "homepage": "https://github.com/Palacharlabhargavi/build-nodejs#readme",
+  "dependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
